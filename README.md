@@ -4,4 +4,4 @@ This repository contains [my Jupyter notebook](https://github.com/sky-t/hack-or-
 
 I have imported [data](https://www.nij.gov/funding/pages/fy16-crime-forecasting-challenge.aspx#data) from the NIJ into Postgres on a Linux VM using Vagrant. You can see my provision scripts [here](https://github.com/sky-t/hack-or-emergency-response/blob/master/provision_script.sh) and [here](https://github.com/sky-t/hack-or-emergency-response/blob/master/provision_script_vagrant.sh).
 
-
+I have also added some [notes](https://github.com/sky-t/hack-or-emergency-response/blob/master/database.md) on importing crime data into the EC2 db.
