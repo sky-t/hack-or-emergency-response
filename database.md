@@ -4,7 +4,7 @@ These are the basic steps I followed in order to get the crimes table up on the 
 
 1. I began by downloading the data from the NIJ [site](https://www.nij.gov/funding/pages/fy16-crime-forecasting-challenge.aspx#data)
 2. Since the data was in .xlsx I used $ in2csv to convert the excel files to csv
-3. Using $ csvsql I created table schemas for each csv (all years 2012-2015, then 4 csvs for 2016 so far). SQL for the basic schema was as follows:
+3. Using $ csvsql I created table schemas for each csv (all years 2012-2015, then 4 csvs for 2016 so far). SQL for the basic schema was as follows
 ```
 CREATE TABLE nij_2012 (
         CATEGORY VARCHAR(19) NOT NULL,
@@ -28,7 +28,7 @@ CREATE TABLE crimes (
   y_coordinate integer NOT NULL,
   census_tract integer);
 ```
-4. I imported data for each csv into the postgres db on the EC2 instance using the psql \COPY function.
+4. I imported data for each csv into the postgres db on the EC2 instance using the psql \COPY function. This [link](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) was helpful.
 
 ```
 $psql target-db \
