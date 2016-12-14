@@ -29,6 +29,7 @@ CREATE TABLE crimes (
   census_tract integer);
 ```
 4. I imported data for each csv into the postgres db on the EC2 instance using the psql \COPY function.
+
 ```
 $psql target-db \
   -U <admin user> \ 
