@@ -10,7 +10,7 @@ For the fire dispatch data, a sample dataset was provided by Portland Fire & Res
 
 2) [EDA on types of incidents in the incident table](https://github.com/sky-t/hack-or-emergency-response/blob/master/fire_dispatch_eda_incidents.ipynb)
 
-3) [EDA on response time deltas on inctimes table]https://github.com/sky-t/hack-or-emergency-response/blob/master/fire_dispatch_eda_inctimes.ipynb)
+3) [EDA on response time deltas in inctimes table] (https://github.com/sky-t/hack-or-emergency-response/blob/master/fire_dispatch_eda_inctimes.ipynb)
 
 
 
